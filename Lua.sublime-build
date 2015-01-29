@@ -1,5 +1,5 @@
 {
-	"cmd": ["lua", "$file"],
+	"cmd": ["/usr/local/bin/lua", "$file"],
 	"file_regex": "^(?:(?:\t)|(?:.+: ))(.+):([0-9]+): (.*)$",
 	"selector": "source.lua"
 }
